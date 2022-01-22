@@ -1,0 +1,11 @@
+h1{
+    background-color: blue;
+    color: white;
+    width: 400px;
+    border-radius: 30%;
+    box-sizing: border-box;
+}
+
+li{
+    list-style: square;
+}
