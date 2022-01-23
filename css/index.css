@@ -1,11 +1,144 @@
-h1{
-    background-color: blue;
-    color: white;
-    width: 400px;
-    border-radius: 30%;
-    box-sizing: border-box;
+body{
+    background-color: rgb(241, 240, 240);
+    margin: 0;
 }
 
-li{
+#head{
+    background-color: black;
+    color: white;
+    width: 1348px;
+    height: 120px;
+    text-align: center;
+}
+header li{
+    display: inline;
+    margin-right: 30px;
+}
+header a{
+    text-decoration: none;
+    color: thistle;
+}
+header ul{
+    float: right;
+}
+
+header img{
+    width: 90px;
+    margin-left: 10px;
+}
+header{
+    background-color: white;
+    width: 1348px;
+}
+
+#colum{
+    display: flex;
+    width: 1348px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#colum2{
+    border: 2px solid rgb(255, 89, 89);
+}
+
+.colum2{
+    background-color: rgb(255, 255, 255);
+    color: rgb(214, 202, 214);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 20px;
+    width: 400px;
+    float: right;
+    padding: 40px;
+}
+
+.colum2 :hover{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 200px;
+}
+.colum-bottom{
+    color: white;
+    background-color: rgb(252, 88, 88);
+    border-bottom: 2px solid black;
+    font-size: 24px;
+    text-align: center;
+}
+h2{
+    color: black;
+    float: right;
+}
+.colum2 img{
+    width: 120px;
+    height: 100px;
+    margin-left: 20px;
+}
+
+
+.colum2 li{
     list-style: square;
+}
+
+#paragraph{
+    text-align: center;
+    width: 1200px;
+    font-size: 18px;
+}
+
+#foot{
+    background-color: black;
+    color: white;
+    width: 1348px;
+    margin-top: 80px;
+}
+
+#foot img{
+    align-items: center;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+#foot a{
+    color: white;
+}
+
+#foot li{
+    display: inline;
+    padding: 20px;
+}
+
+#foot li a{
+    text-decoration: none;
+}
+#foot ul{
+    list-style: none;
+    text-align: center;
+}
+
+#foot img{
+    width: 100px;
+    height: 100px;
+}
+
+#footer{
+    background-color: rgb(143, 131, 131);
+    color: white;
+    width: 1348px;
+    padding: 10px 0 0 0;
+}
+
+#footer li{
+    list-style: none;
+    display: inline;
+    margin-right: 40px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: white;
 }
