@@ -28,16 +28,8 @@ header img{
 }
 header{
     background-color: white;
-    width: 1348px;
 }
 
-#colum{
-    display: flex;
-    width: 1348px;
-    align-items: center;
-    justify-content: center;
-    
-}
 
 #colum2{
     border: 2px solid rgb(255, 89, 89);
@@ -51,7 +43,6 @@ header{
     margin-top: 20px;
     margin-right: 20px;
     width: 400px;
-    float: right;
     padding: 40px;
 }
 
